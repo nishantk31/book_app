@@ -1,0 +1,21 @@
+<p>books works!</p>
+<button (click)="handelClick()" [disabled]="isDisabled">Show Books</button>
+
+<!-- For two way- binding -->
+<div>
+    <!-- <input type="text" [(ngModel)]="input_text"/>
+      <p>{{input_text}}</p> -->
+</div>
+
+
+<ul>
+    <li>
+        <img [src]="src" [alt]="name" width="100" />
+        {{name}} by {{author}}
+    </li>
+
+    <li>
+        <img [src]="src1" [alt]="name1" width="100" />
+        {{name1}} by {{author1}}
+    </li>
+</ul>
